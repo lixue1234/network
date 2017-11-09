@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name         = "Network" # 项目名称
-s.version      = "0.0.1"        # 版本号 与 你仓库的 标签号 对应
+s.version      = "0.0.2"        # 版本号 与 你仓库的 标签号 对应
 s.license      = "MIT"          # 开源证书
 s.summary      = "test" # 项目简介
 
@@ -18,7 +18,7 @@ s.source_files = "Network/**/*" # 你代码的位置， BYPhoneNumTF/*.{h,m} 表
 s.requires_arc = true # 是否启用ARC
 s.platform     = :ios, "8.0" #平台及支持的最低版本
 s.frameworks   = "UIKit", "Foundation" #支持的框架
-# s.dependency = "AFNetworking" # 依赖库
+#s.dependency 'AFNetworking'
 # User
 s.author             = { "BY" => "lixue2014420@163.com" } # 作者信息
 s.social_media_url   = "https://github.com/lixue1234" # 个人主页
